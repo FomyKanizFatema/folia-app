@@ -1,0 +1,116 @@
+/* Studio Container */
+.studio-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Content Layout */
+.studio-content {
+  display: flex;
+  flex: 1;
+  background-color: #f4f5f7;
+  margin-top: 60px; /* Add space for the fixed navigation bar */
+  padding: 20px;
+}
+
+/* Sidebar */
+.studio-sidebar {
+  width: 200px;
+  background-color: #e9e8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.studio-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.studio-buttons button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.studio-buttons button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Main Content */
+.studio-main {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.studio-input {
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.studio-actions button {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.studio-actions button:hover {
+  background-color: #0056b3;
+}
+
+.studio-visualization {
+  flex: 1;
+  margin: 20px 0;
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.studio-save-export button {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.studio-save-export button:hover {
+  background-color: #218838;
+}
+
+/* Toolbar */
+.studio-toolbar {
+  width: 100px;
+  background-color: #e9e8ff;
+  padding: 10px;
+  text-align: center;
+}
+
+.toolbar-icons .icon {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
